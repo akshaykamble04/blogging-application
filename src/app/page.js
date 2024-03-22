@@ -14,7 +14,6 @@ export default function Home() {
       <div className={styles.content}>
         <CardList />
         <Menu />
-
       </div>
     </div>
   );
