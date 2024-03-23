@@ -12,7 +12,7 @@ export const Navbar = () => {
                 <Image src="/facebook.png" alt="facebook" width={24} height={24} />
                 <Image src="/instagram.png" alt="facebook" width={24} height={24} />
                 <Image src="/youtube.png" alt="facebook" width={24} height={24} />
-                <Image src="/tiktok.png" alt="facebook" width={24} height={24} />
+                <Image src="/twitter.png" alt="facebook" width={24} height={24} />
             </div>
             <div className={styles.logo}>Blog Hub</div>
             <div className={styles.links}>
