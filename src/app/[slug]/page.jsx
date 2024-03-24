@@ -2,6 +2,7 @@ import React from 'react';
 import styles from "./singlePage.module.css";
 import Menu from '@/components/menu/Menu';
 import Image from 'next/image';
+import Comments from '@/components/comments/Comments';
 
 const SinglePage = () => {
     return (
@@ -49,7 +50,9 @@ const SinglePage = () => {
                             across generations.
                         </p>
                     </div>
-
+                    <div className={styles.comment}>
+                        <Comments />
+                    </div>
                 </div>
                 <Menu />
             </div>
